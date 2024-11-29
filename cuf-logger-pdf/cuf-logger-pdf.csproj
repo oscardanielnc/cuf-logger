@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>cuf_admision_pdf</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Documets\" />
+    <None Remove="iTextSharp" />
+    <None Remove="Assets\" />
+    <None Remove="Assets\Logos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documets\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Assets\Roboto\" />
+    <Folder Include="Assets\Logos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cuf-registration-domain\cuf-registration-domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\**\*.*">
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+  </ItemGroup>
+</Project>

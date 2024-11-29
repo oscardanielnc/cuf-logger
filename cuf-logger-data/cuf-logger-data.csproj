@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>cuf_admision_data</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configuration\" />
+    <None Remove="Services\" />
+    <None Remove="Microsoft.Extensions.Logging.Abstractions" />
+    <None Remove="Repositories\" />
+    <None Remove="RestSharp" />
+    <None Remove="Utils\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Services\http\" />
+    <None Remove="Services\db\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Services\db\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cuf-logger-db-map\cuf-logger-db-map.csproj" />
+    <ProjectReference Include="..\cuf-logger-domain\cuf-logger-domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.2" />
+    <PackageReference Include="RestSharp" Version="108.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>

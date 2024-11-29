@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>cuf_admision_domain</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\cuf-logger-db-map\cuf-logger-db-map.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Repositories\" />
+    <None Remove="Services\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Enums\" />
+    <None Remove="Constants\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+</Project>

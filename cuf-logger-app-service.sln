@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cuf-logger-app-service", "cuf-logger-app-service\cuf-logger-app-service.csproj", "{8EAD5198-FDD6-48F0-8BD7-82ED02CB32A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cuf-logger-data", "cuf-logger-data\cuf-logger-data.csproj", "{15671043-7329-4B04-A803-09668924A4BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cuf-logger-db-map", "cuf-logger-db-map\cuf-logger-db-map.csproj", "{0D7F3A94-E586-44E8-B48F-981A6B2C8EB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cuf-logger-domain", "cuf-logger-domain\cuf-logger-domain.csproj", "{B17DFC86-2C82-40FC-A848-A0A8B1152724}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EAD5198-FDD6-48F0-8BD7-82ED02CB32A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAD5198-FDD6-48F0-8BD7-82ED02CB32A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAD5198-FDD6-48F0-8BD7-82ED02CB32A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAD5198-FDD6-48F0-8BD7-82ED02CB32A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15671043-7329-4B04-A803-09668924A4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15671043-7329-4B04-A803-09668924A4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15671043-7329-4B04-A803-09668924A4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15671043-7329-4B04-A803-09668924A4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7F3A94-E586-44E8-B48F-981A6B2C8EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7F3A94-E586-44E8-B48F-981A6B2C8EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7F3A94-E586-44E8-B48F-981A6B2C8EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7F3A94-E586-44E8-B48F-981A6B2C8EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17DFC86-2C82-40FC-A848-A0A8B1152724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17DFC86-2C82-40FC-A848-A0A8B1152724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17DFC86-2C82-40FC-A848-A0A8B1152724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17DFC86-2C82-40FC-A848-A0A8B1152724}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29E8C8A-3836-4E21-BD22-C771D70A4EA5}
+	EndGlobalSection
+EndGlobal
