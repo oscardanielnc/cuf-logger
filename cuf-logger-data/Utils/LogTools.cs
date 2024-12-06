@@ -13,8 +13,9 @@ namespace cuf_admision_data.Utils
     {
         public bool LogSimple(LogModel body)
         {
-            DateTime fechaHoraActual = DateTime.Now; 
-            string formatoFechaHora = fechaHoraActual.ToString("dd/MM/yyyy HH:mm:ss");
+            DateTime fechaHoraActual = DateTime.Now;
+            DateTime fechaHoraModificada = fechaHoraActual.AddHours(-5);
+            string formatoFechaHora = fechaHoraModificada.ToString("dd/MM/yyyy HH:mm:ss");
             Console.WriteLine($"{formatoFechaHora}    {body.text}");
             return true;
         }
